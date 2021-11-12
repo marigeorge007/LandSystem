@@ -1,0 +1,29 @@
+.container {
+	padding: 0 15px;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.row {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header,
+footer,
+article,
+hgroup {
+	display: block;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}

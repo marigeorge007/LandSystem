@@ -1,0 +1,21 @@
+.btn {
+	font-family: "GothamPro", sans-serif;
+	display: inline-block;
+	width: 210px;
+	height: 53px;
+	box-sizing: border-box;
+	background: $decor;
+	cursor: pointer;
+	color: $second;
+	font-size: 1.1rem;
+	text-align: center;
+	line-height: 52px;
+	border-radius: 26px;
+	font-weight: 600;
+
+	&_transparent {
+		background: #fff;
+		border: 2px solid $decor;
+		color: #696b6d;
+	}
+}
